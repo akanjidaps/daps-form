@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <style>
+
+        body {
+            background-color: #f2f6ff;
+            margin: 0;
+        }
+
+        form {
+            border: 1px solid #ccc;
+            max-width: 800px;
+            margin-left: auto;
+            margin-right: auto;
+            background-color: white;
+        }
+
+        #form-heading {
+            font-size: 32px;
+            padding-top: 56px;
+            padding-bottom: 32px;
+            text-align: center;
+            margin-bottom: 0;
+        }
+
+        #logo-area {
+            background-color: #f2f6ff;
+            text-align: center;
+            padding-top: 16px;
+            padding-bottom: 16px;
+        }
+
+        .logo {
+            width: 50px;
+            height: 50px;
+            padding-left: 32px;
+            padding-right: 32px;
+            padding-top: 16px;
+            padding-top: 16px;
+        }
+
+        .input-container {
+            padding-left: 80px;
+            padding-right: 80px;
+        }
+
+        .input-box {
+            font-size: 18px;
+            padding-bottom: 12px;
+            margin-bottom: 36px;
+            border-top: 0;
+            border-left: 0;
+            border-right: 0;
+            border-bottom: 1px solid #ccc;
+            width: 100%;
+        }
+
+        #username {
+            padding-top: 80px;
+            
+        }
+
+        /* #confirm-password {
+            
+        } */
+
+        #submit-button {
+            background-color: #0056ff;
+            border: none;
+            font-size: 18px;
+            color: white;
+            padding-top: 12px;
+            padding-bottom: 12px;
+            padding-left: 24px;
+            padding-right: 24px;
+            
+        }
+
+    </style>
+</head>
+<body>
+    <form method="post">
+        <h1 id="form-heading">Register</h1>
+        <div id="logo-area">
+        <img class="logo" src="http://pluspng.com/img-png/google-logo-png-open-2000.png" alt="Google Logo">
+        <img class="logo" src="https://cdn4.iconfinder.com/data/icons/social-media-icons-the-circle-set/48/facebook_circle-512.png" alt="Facebook Logo">
+        <img class="logo" src="https://image.flaticon.com/icons/svg/25/25231.svg" alt="Github Logo">
+        <img class="logo" src="https://cdn4.iconfinder.com/data/icons/social-media-icons-the-circle-set/48/linkedin_circle-512.png" alt="LinkedIn Logo">
+        </div>
+        <div class="input-container">
+            <input class="input-box" id="username" type="text" name="username" placeholder="Username">
+        </div>
+        <div class="input-container">
+            <input class="input-box" type="email" name="email" placeholder="Email">
+        </div>
+        <div class="input-container">
+            <input class="input-box" type="password" name="password" placeholder="Password">
+        </div>
+        <div class="input-container">
+            <input class="input-box" id="confirm-password" type="password" name="confirm-password" placeholder="Confirm Password">
+        </div>
+        <div style="text-align: center;">
+            <input type="submit" value="Register" id="submit-button" > <br>
+            <br>
+        </div>
+    </form>
+</body>
+</html>
